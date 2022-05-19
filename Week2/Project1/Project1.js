@@ -12,17 +12,17 @@ document.body.appendChild(Nav);
 Nav.setAttribute('id', 'Nav');
 
 const Nav1 = document.createElement('a');
-Nav1.textContent = 'Home';
+Nav1.textContent = 'Home' 
 document.getElementById('Nav').appendChild(Nav1);
 Nav1.setAttribute('href', '#');
 
 const Nav2 = document.createElement('a');
-Nav2.textContent = 'Contact';
+Nav2.textContent = 'Contact'
 document.getElementById('Nav').appendChild(Nav2);
 Nav2.setAttribute('href', '#');
 
 const Nav3 = document.createElement('a');
-Nav3.textContent = 'Services';
+Nav3.textContent = 'Services'
 document.getElementById('Nav').appendChild(Nav3);
 Nav3.setAttribute('href', '#');
 
