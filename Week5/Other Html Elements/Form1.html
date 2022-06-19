@@ -22,12 +22,16 @@
     <input type= "radio" name="Toes" id="ToesY" value="Yes">Yes
     <input type="radio" name="Toes" id="ToesN" value="No" >No
 
-    <p>Are you allergic to any of the following things?</p>
-    <input type="checkbox" name="Allergy" id="Allergy1" value="Pollen">Pollen
-    <input type="checkbox" name="Allergy" id="Allergy2" value="Fish">Fish(Any)
-    <input type="checkbox" name="Allergy" id="Allergy3" value="Peanut">Peanut
+    <p>Are you allergic to fish</p>
 
-    <button type="submit">Submit</button>
+    <label for="Allergy">Please choose one of the following</label>&nbsp;
+    <select name="allergies" id="Allergies">
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+      <option value="I dont Know" selected>I don't know</option>
+    </select>
+
+ 
 
 </form>
     <script src="Form1.js"></script>
